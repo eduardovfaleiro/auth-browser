@@ -32,7 +32,7 @@ python -m venv .venv
 .venv/bin/python login.py https://your-protected-site.com
 ```
 
-A visible Chromium window opens. Complete the Google login, wait until you are redirected back to the target site (not on any Google/auth page), then press **ENTER**. The session is saved to `sessao.json`.
+A visible Chromium window opens. Complete the Google login — once you are redirected back to the target site, the session is saved to `sessao.json` and the browser closes automatically.
 
 ### Step 2 — Fetch a page
 

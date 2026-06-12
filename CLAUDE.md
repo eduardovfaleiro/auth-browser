@@ -21,7 +21,7 @@ python -m venv .venv
 ```bash
 .venv/bin/python login.py
 ```
-Opens a visible Chromium window. Optionally pass the target URL as argument (`python login.py https://site.example.com`) to open directly there. Navigate to the target site, complete login, wait to be redirected **back to the site** (not on a Google/auth page), then press ENTER. Session is saved to `sessao.json`.
+Opens a visible Chromium window. Optionally pass the target URL as argument (`python login.py https://site.example.com`) to open directly there. Complete the Google login — once redirected back to the target site, the session is saved to `sessao.json` and the browser closes automatically.
 
 **Step 2 — fetch a page:**
 ```bash
